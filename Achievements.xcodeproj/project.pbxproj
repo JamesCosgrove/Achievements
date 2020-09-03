@@ -13,6 +13,8 @@
 		1A24F2C72501456E000ECF42 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A24F2C62501456E000ECF42 /* Preview Assets.xcassets */; };
 		1A24F2C92501456E000ECF42 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A24F2C82501456E000ECF42 /* Persistence.swift */; };
 		1A24F2CC2501456E000ECF42 /* Achievements.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1A24F2CA2501456E000ECF42 /* Achievements.xcdatamodeld */; };
+		1A24F2D525014775000ECF42 /* RunningAchievement+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A24F2D325014775000ECF42 /* RunningAchievement+CoreDataClass.swift */; };
+		1A24F2D625014775000ECF42 /* RunningAchievement+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A24F2D425014775000ECF42 /* RunningAchievement+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		1A24F2C82501456E000ECF42 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		1A24F2CB2501456E000ECF42 /* Achievements.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Achievements.xcdatamodel; sourceTree = "<group>"; };
 		1A24F2CD2501456E000ECF42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A24F2D325014775000ECF42 /* RunningAchievement+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RunningAchievement+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		1A24F2D425014775000ECF42 /* RunningAchievement+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RunningAchievement+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		1A24F2BE2501456D000ECF42 /* Achievements */ = {
 			isa = PBXGroup;
 			children = (
+				1A24F2D325014775000ECF42 /* RunningAchievement+CoreDataClass.swift */,
+				1A24F2D425014775000ECF42 /* RunningAchievement+CoreDataProperties.swift */,
 				1A24F2BF2501456D000ECF42 /* AchievementsApp.swift */,
 				1A24F2C12501456D000ECF42 /* ContentView.swift */,
 				1A24F2C32501456E000ECF42 /* Assets.xcassets */,
@@ -145,7 +151,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A24F2C92501456E000ECF42 /* Persistence.swift in Sources */,
+				1A24F2D525014775000ECF42 /* RunningAchievement+CoreDataClass.swift in Sources */,
 				1A24F2CC2501456E000ECF42 /* Achievements.xcdatamodeld in Sources */,
+				1A24F2D625014775000ECF42 /* RunningAchievement+CoreDataProperties.swift in Sources */,
 				1A24F2C22501456D000ECF42 /* ContentView.swift in Sources */,
 				1A24F2C02501456D000ECF42 /* AchievementsApp.swift in Sources */,
 			);
